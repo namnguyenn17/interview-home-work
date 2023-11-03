@@ -1,0 +1,27 @@
+.comment {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    &_name {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+
+      &_date {
+        color: gray;
+      }
+    }
+    &_btn {
+      cursor: pointer;
+      color: gray;
+    }
+  }
+}
